@@ -15,6 +15,7 @@ app.use(express.json());
 // Routes
 app.use(require('./routes/index'));
 app.use(require('./routes/movies'));
+app.use(require('./routes/users'));
 
 // Starting the server
 app.listen(3000, () =>{

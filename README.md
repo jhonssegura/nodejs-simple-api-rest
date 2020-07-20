@@ -18,3 +18,6 @@ Realizar cambio en el package.json colocando en "Scripts"
 
 Luego de esto solo ejecutar  
 $ npm run dev
+
+Se utiliza para hacer otras peticiones CRUD a otros servidores NodeJS
+Installar npm i node-fetch
